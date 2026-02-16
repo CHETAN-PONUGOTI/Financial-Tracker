@@ -1,0 +1,19 @@
+# ignore .env file which contains sensitive information like database credentials and JWT secret
+.env
+
+# ignore node_modules directory which contains all the installed dependencies
+node_modules/
+# ignore log files
+logs/
+*.log
+# ignore build files
+dist/
+build/
+# ignore coverage reports
+coverage/
+# ignore environment variable files
+.env.local
+.env.development
+.env.production
+# ignore OS generated files
+.DS_Store
